@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-sm-12">
+    <form action="/login" method="POST" id="login-form">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" class="form-control" name="username" placeholder="username" value="">
+        <label for="password">Password</label>
+        <input type="password" id="password" class="form-control" name="password" placeholder="password" value="">
+        
+        <button type="submit" id="submit" class="btn btn-default">Submit</button>
+      </div>
+      {{#if hasErrors}}
+        <p class="error">
+            {{{errors}}}
+        </p>
+      {{/if}}
+    </form>
+  </div>
+</div>
