@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hadia Hameed 10440803",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.0.2",
+    "uuid": "^3.3.2"
+  }
+}

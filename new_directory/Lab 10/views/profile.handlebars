@@ -1,0 +1,32 @@
+{{#if hasErrors}}
+    <p class="error">
+        {{{error}}}
+    </p>
+    <a href="/">Login</a>
+{{else}}
+    {{#if loggedOut}}
+        <p>You are logged out!</p>
+        <a href="/">Login</a>
+    {{else}}
+     <ul>
+        <li>Username:
+            <p>{{{username}}}</p>
+        </li>
+        <li>First Name:
+            <p>{{{firstName}}}</p>
+        </li>
+        <li>Last Name:
+            <p>{{{lastName}}}</p>
+        </li>
+        <li>Profession:
+            <p>{{{profession}}}</p>
+        </li>
+        <li>Bio:
+            <p>{{{bio}}}</p>
+        </li>
+      </ul>
+        <a href="/logout">Logout</a>
+    {{/if}}
+{{/if}}
+
+    
