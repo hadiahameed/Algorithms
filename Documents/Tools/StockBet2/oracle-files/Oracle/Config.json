@@ -1,0 +1,29 @@
+{
+
+	"title": "Stock-Bet",
+	"public_key": "abcdef",
+	"NODE_URL": "wss://kovan.infura.io/ws/xeb916AFjrcttuQlezyq",
+	"mnemonic": "",
+	"STATUS_URL":"",
+	"EndpointSchema": {
+		"name": "stock-bet",
+		"curve": [2,
+			0,
+			0,
+			10000,
+			2,
+			100,
+			3000000000000000000,
+			1000000000000000000
+		],
+		"broker": "",
+		"md": "Gives you the current stock price for a particular company's stocks.",
+		"queryList": [{
+			"query": "bet",
+			"params": ["stock1","stock2","start_date","compId"],
+			"dynamic": false,
+			"responseType": []
+		}]
+	}
+
+}
