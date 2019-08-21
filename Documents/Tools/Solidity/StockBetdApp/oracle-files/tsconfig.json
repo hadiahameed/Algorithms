@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2018",
+		"lib": [
+			"es2018",
+			"dom"
+		],
+		"outDir": "./lib",
+		"sourceMap": false,
+		"declaration": false,
+		"experimentalDecorators": true,
+		"noImplicitReturns": true,
+		"pretty": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"resolveJsonModule":true,
+		 "esModuleInterop": true 
+	},
+	"include": [
+		"./Oracle/**/*", "*.ts"
+	]
+}
